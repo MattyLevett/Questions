@@ -5,8 +5,8 @@
 int main(void)
 {
     int r=5;
-    float Volume=(4*M_PI*r*r*r/3);
-    float SurfaceArea=(4*M_PI*r*r);
+    double Volume=(4*r*r*r/3)*3.14159;
+    double SurfaceArea=(4*r*r)*3.14159;
     printf("Radius is %d\nVolume is %.2f\nSurface area is %.2f\n",r,Volume,SurfaceArea);
 
     return 0;
